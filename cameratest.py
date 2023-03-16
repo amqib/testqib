@@ -36,6 +36,7 @@ while True:
 		name = 'Unknown'
 
 	print(name)
+	print('test')
 	videotoshow = cv2.resize(frame,(800,400))
 	cv2.imshow('Vid',videotoshow)
 	key = cv2.waitKey(1)
